@@ -9,9 +9,9 @@ This is a Chat system example application built with the [Laravel WebSockets](ht
 
 1. Clone this repository
 `git clone git@github.com:qirolab/Laravel-WebSockets-Chat-Example.git`
-2. `composer install`
-3. `php artisan key:generate`
-4. `cp .env.example .env` and configure your database in .env file.
+2. `composer install`\
+3. `cp .env.example .env` and configure your database in .env file.
+4. `php artisan key:generate`
 5. Run migration to create tables in database.
 `php artisan migrate`
 6. Final step run websockets server.
@@ -20,4 +20,7 @@ This is a Chat system example application built with the [Laravel WebSockets](ht
 Now test it in your browser.
 
 
-
+# Other
+http://socketo.me/: Support any core php and any non-Laravel project where you want to implement a realtime
+- https://github.com/ratchetphp/Ratchet
+- https://github.com/hkp22/php-websocket-example

@@ -57,10 +57,9 @@ window.Echo = new Echo({
 });
 
 
-// window.Echo.channel('DemoChannel')
-// .listen('WebsocketDemoEvent', (e) => {
+window.Echo.channel('DemoChannel')
+.listen('WebsocketDemoEvent', (e) => {
 
-//     console.log(e);
-
-// });
+    console.log(e);
+});
 
