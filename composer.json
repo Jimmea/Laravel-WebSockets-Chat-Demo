@@ -1,7 +1,7 @@
 {
     "name": "laravel/laravel",
     "type": "project",
-    "description": "The Laravel Framework.",
+    "description": "This is a Chat system example application built with the Laravel WebSockets package, VueJs and Laravel-Echo",
     "keywords": [
         "framework",
         "laravel"
